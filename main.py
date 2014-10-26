@@ -75,7 +75,7 @@ def scoreGamesWithPowers(games, powers):
 		score += - (happiness)
 
 	for power in powers:
-		score += POWER_SCALE * power # don't give excess power
+		score += POWER_SCALE * power # don't give excess power than is needed.
 
 	global NUM_CALLED
 	NUM_CALLED += 1
